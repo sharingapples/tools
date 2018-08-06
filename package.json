@@ -1,6 +1,6 @@
 {
   "name": "via-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to manually route your http traffic through a proxy server",
   "main": "index.js",
   "author": "Ranjan Shrestha",
