@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Ranjan Shrestha",
   "license": "MIT",
+  "repository": "https://github.com/sharingapples/tools/tree/master/via-proxy",
   "bin": {
     "via-proxy": "index.js"
   },
