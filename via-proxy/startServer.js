@@ -43,7 +43,7 @@ module.exports = function startServer(port, targetUrl, proxyServer, proxyPort) {
     const proxyUrl = `${targetUrl}${req.url}`;
     collectSocket(socket);
 
-    console.log('  >>', colors.green(moment().format('HH:MM:SS')), 'Upgrading', colors.cyan(req.url));
+    console.log('  >>', colors.green(moment().format('HH:mm:ss')), 'Upgrading', colors.cyan(req.url));
     req.url = proxyUrl;
     proxy.ws(req, socket, head);
   });
